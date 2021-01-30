@@ -1,5 +1,5 @@
 name: custom_rating_bar
-description: Customizable rating bar for flutter.
+description: Custom rating bar for flutter with support of custom icons, half icons, directions, alignments & more.
 version: 1.0.0
 homepage: https://github.com/marcsanny/custom_rating_bar
 
