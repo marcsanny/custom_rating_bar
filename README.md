@@ -4,11 +4,44 @@ Custom rating bar for flutter with support of: custom icons, half icons, directi
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+### Instalation
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Add this to your pubspec.yaml file:
+
+```yaml
+dependencies:
+ custom_rating_bar: ^1.0.0
+```
+
+### How to use
+
+```dart
+import 'package:custom_rating_bar/custom_rating_bar.dart';
+```
+
+Basic widget
+
+```dart
+RatingBar(
+  filledIcon: Icons.star, 
+  emptyIcon: Icons.star_border,
+  onRatingChanged: (value) => debugPrint('$value'),
+  initialRating: 3,
+  maxRating: 5,
+)
+```
+
+Read only widget
+
+```dart
+RatingBar.readOnly(
+  filledIcon: Icons.star, 
+  emptyIcon: Icons.star_border,
+  initialRating: 4,
+  maxRating: 5,
+)
+```
+
+### Examples
+
+![Alt text](/examples.png?raw=true)
