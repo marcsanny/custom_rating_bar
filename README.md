@@ -44,4 +44,4 @@ RatingBar.readOnly(
 
 ### Examples
 
-![Alt text](/examples.png?raw=true)
+![Alt text](https://raw.githubusercontent.com/marcsanny/custom_rating_bar/main/examples.png)
