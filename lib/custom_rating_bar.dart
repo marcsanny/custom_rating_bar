@@ -2,6 +2,9 @@ library custom_rating_bar;
 
 import 'package:flutter/material.dart';
 
+/// Creates rating bar.
+///
+/// The [onRatingChanged], [filledIcon] & [emptyIcon] must not be null.
 class RatingBar extends StatefulWidget {
   RatingBar({
     Key key,
@@ -40,6 +43,9 @@ class RatingBar extends StatefulWidget {
         assert(size != null, 'size cannot be null'),
         super(key: key);
 
+  /// Creates read only rating bar.
+  ///
+  /// The [filledIcon] & [emptyIcon] must not be null.
   RatingBar.readOnly({
     Key key,
     @required this.filledIcon,

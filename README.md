@@ -10,7 +10,7 @@ Add this to your pubspec.yaml file:
 
 ```yaml
 dependencies:
- custom_rating_bar: ^1.0.0
+ custom_rating_bar: ^1.0.2
 ```
 
 ### How to use
@@ -44,4 +44,4 @@ RatingBar.readOnly(
 
 ### Examples
 
-![Alt text](/examples.png?raw=true)
+<img src="https://raw.githubusercontent.com/marcsanny/custom_rating_bar/main/examples.png">
