@@ -44,4 +44,4 @@ RatingBar.readOnly(
 
 ### Examples
 
-![Alt text](examples.png)
+![ScreenShot](examples.png)
